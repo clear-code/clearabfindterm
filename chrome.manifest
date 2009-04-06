@@ -1,0 +1,9 @@
+content	clearabfindterm	jar:chrome/clearabfindterm.jar!/content/clearabfindterm/
+
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://clearabfindterm/content/messengercomposeOverlay.xul
+overlay chrome://messenger/content/addressbook/abContactsPanel.xul	    chrome://clearabfindterm/content/abContactsPanelOverlay.xul
+overlay	chrome://messenger/content/messenger.xul	chrome://clearabfindterm/content/messengerOverlay.xul
+
+
+locale	clearabfindterm	en-US	jar:chrome/clearabfindterm.jar!/locale/en-US/clearabfindterm/
+locale	clearabfindterm	ja	jar:chrome/clearabfindterm.jar!/locale/ja/clearabfindterm/
